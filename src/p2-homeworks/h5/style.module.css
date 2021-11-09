@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+.listNone {
+    display: none;
+}
+
+.items {
+    margin-right: 10px;
+}
+
+.items:last-child {
+    margin-right: 0;
+}
+
+.items:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+.button {
+    border: 2px solid deepskyblue;
+}
+
+.butto:hover {
+    border: none;
+    background-color: deepskyblue;
+    transition: .5s;
+}

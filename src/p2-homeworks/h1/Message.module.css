@@ -1,0 +1,40 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    max-width: 450px;
+    padding: 20px;
+    margin-left: 40px;
+    min-height: 320px;
+    background-image: url('https://cdn.wallpapersafari.com/39/66/Nkoz53.jpg');
+}
+
+.image {
+
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    clip-path: circle(50%);
+}
+
+.chat {
+    max-width: 220px;
+    min-height: 50px;
+    padding: 15px;
+    background-color: azure;
+    border-radius: 20px;
+    color: #000;
+}
+
+p {
+    margin: 0px;
+}
+
+.user {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
